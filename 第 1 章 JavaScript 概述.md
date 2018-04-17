@@ -1,23 +1,21 @@
 
 # 第 1 章 JavaScript 概述
 
-
-目录：
-##### [1.什么是 JavaScript](#1) 
-##### [2.JavaScript 特点](#2)
-##### [3.JavaScript 历史](#3)
-##### [4.JavaScript 核心](#4)
+### 1.什么是 JavaScript
+### 2.JavaScript 特点
+### [3.JavaScript 历史
+### 4.JavaScript 核心
 
 
 JavaScript 诞生于 1995 年。它当时的目的是为了验证表单输入的验证。因为在 JavaScript 问世之前，表单的验证都是通过服务器端验证的。而当时都是电话拨号上网的年代，服务器验证数据是一件非常痛苦的事情。
 
 经过许多年的发展，JavaScript 从一个简单的输入验证成为一门强大的编程语言。所以，学会使用它是非常简单的，而真正掌握它则需要很漫长的时间。那么本套视频就带领大家进入 JavaScript 课堂，去学习和理解它。
-<a id="1"></a>
+
 ### 一．什么是 JavaScript
 
 
 JavaScript 是一种具有面向对象能力的、解释型的程序设计语言。更具体一点，它是基于对象和事件驱动并具有相对安全性的客户端脚本语言。因为他不需要在一个语言环境下运行，而只需要支持它的浏览器即可。它的主要目的是，验证发往服务器端的数据、增加 Web 互动、加强用户体验度等。
-<a id="2"></a>
+
 ### 二．JavaScript 特点
 
 ##### 松散性
@@ -31,7 +29,7 @@ JavaScript 中的对象把属性名映射为任意的属性值。它的这种方
 ##### 继承机制
 
 JavaScript 中的面向对象继承机制是基于原型的，这和另外一种不太为人所知的 Self 语言很像，而和 C++以及 Java 中的继承大不相同。
-<a id="3"></a>
+
 ### 三．JavaScript 历史
 
 ##### 引子
@@ -89,7 +87,7 @@ Safari 浏览器是苹果公司各种产品的默认浏览器，在苹果的一�
 
 Opera 的全球市场份额第五，2%左右。它的背后没有财力雄厚的大公司，但它从“浏览器大战”存活下来的，有着非常大的潜力。
 
-<a id="4"></a>
+
 ### 四．JavaScript 核心
 
 虽然 JavaScript 和 ECMAScript 通常被人们用来表达相同的含义，但 JavaScript 的含义却比ECMA-262 中规定的要多得多。一个完整的JavaScript 应该由下列三个不同的部分组成。
@@ -159,65 +157,4 @@ Firefox 3/4/5/6/7/8/9	第 3/5 版
 ##### 文档对象模型(DOM)
 
 文档对象模型(DOM，Document Object Model)是针对 XML 但经过扩展用于 HTML 的应用程序编程接口(API，Application Programming Interface)。
-DOM 有三个级别，每个级别都会新增很多内容模块和标准(有兴趣可以搜索查询)。以下是主流浏览器对 DOM 支持的情况：
-
-##### 浏 览 器	DOM 兼容性
-	
-Netscape Navigator 1 -- 4.x	----
-	
-Netscape Navigator 6+(Mozilla 0.6.0+)	1 级、2 级(几乎全部)、3 级(部分)
-	
-Internet Explorer 2 -- 4.x	----
-	
-Internet Explorer 5	1 级(最小限度)
-	
-Internet Explorer 5.5 -- 7	1 级(几乎全部)
-	
-Opera 1 -- 6	----
-	
-Opera 7 -- 8.x	1 级(几乎全部)、2 级(部分)
-	
-Opera 9+	1 级、2 级(几乎全部)、3 级(部分)
-		
-Safari 1.0x	1	级
-		
-Safari 2+	1 级、2	级(部分)
-		
-Chrome 0.2+	1 级、2	级(部分)
-	
-Firefox 1+	1 级、2 级(几乎全部)、3 级(部分)
-		
-
-
-##### 浏览器对象模型(BOM)
-
-访问和操作浏览器窗口的浏览器对象模型(BOM，Browser Object Model)。开发人员使用 BOM 可以控制浏览器显示页面以外的部分。而 BOM 真正与众不同的地方(也是经常会导致问题的地方)，还是它作为 JavaScript 实现的一部分，至今仍没有相关的标准。
-
-##### JavaScript 版本
-
-身为 Netscape“继承人”的 Mozilla 公司，是目前唯一沿用最初的 JavaScript 版本编号的浏览器开发商。在网景把 JavaScript 转手给 Mozilla 项目的时候，JavaScript 在浏览器中最后的版本号是 1.3。后来，随着 Mozilla 继续开发，JavaScript 版本号逐步递增。
-
-##### 浏 览 器	JavaScript 版本
-	
-Netscape Navigator 2	1.0
-	
-Netscape Navigator 3	1.1
-	
-Netscape Navigator 4	1.2
-	
-Netscape Navigator 4.06	1.3
-	
-Netscape 6+ (Mozilla 0.6.0+)	1.5
-	
-Firefox 1	1.5
-	
-Firefox 1.5	1.6
-	
-Firefox 2	1.7
-	
-Firefox 3	1.8
-	
-Firefox 3.1+	1.9
-	
-
-
+DOM 有三个级别，每个级别都会新增
