@@ -3,7 +3,7 @@
 
 ### 1.什么是 JavaScript
 ### 2.JavaScript 特点
-### [3.JavaScript 历史
+### 3.JavaScript 历史
 ### 4.JavaScript 核心
 
 
